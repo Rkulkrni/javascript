@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Objects</title>
+    <script src="domObject.js"></script>
+    <style>
+        #myfun {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Example-1 -->
+   Name    <input type="text" name="fname" id="fname"> <br><br>
+   Surname <input type="text" name="lname" id="lname"> <br><br>
+    <button onclick="submit('FName' , 'Lname')">Submit</button>
+
+    <!-- Example-2  -->
+    <div>
+        <h1>Events </h1>        
+    </div>
+
+    <div >
+        <h3 id="myfun" onclick="fun()">HTML</h3>
+        <h3 id="myfun1" ondblclick="fun()">Javascript</h3>
+        <h3 id="myfun2" onmouseleave="fun()">Bootstrap</h3>
+        <h2 id="demo" onmouseenter="fun()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magni temporibus atque odio quam vero totam nisi possimus error odit!</h2>
+    </div>
+    <script>      
+        function fun (){
+        document.getElementById('myfun').style.color='red';  
+        document.getElementById('myfun').style.backgroundColor='black';  
+        document.getElementById('myfun').textContent='Hyper Text Markup Language';
+        document.getElementById('myfun1').style.color="green";
+        document.getElementById('myfun2').style.backgroundColor="yellow";
+        document.getElementById('demo').style.backgroundColor="pink";
+    }
+    </script>
+
+        <!-- example-3 -->
+
+    <script>
+        function insert(name,age){
+            if (name==""||age=="")
+            return;
+            document.write( name+ " is a good boy and he is " + age+ " year old ");
+        }
+    </script>
+
+        <h5>Fill the following details</h5>
+    <form action="#">
+        <input type="text" name="t1" placeholder="Name"><br><br>
+        <input type="text" name="t2" placeholder="Age"><br><br>
+
+        <button onclick="insert(t1.value, t2.value)">submit
+
+        </button>
+
+    </form>
+
+        <!-- example-4 -->
+
+        <script>
+            function load(){
+                    document.images["images"].src="img-1.jpg"
+            }
+        </script>
+
+        <div onload="load()">
+            <img name="images" onmouseover="mouseover()" />
+        </div>
+
+
+
+</body>
+</html>

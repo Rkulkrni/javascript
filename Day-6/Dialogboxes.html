@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DialogBoxes</title>
+</head>
+<body>
+    <!-- 1) Alert example-->
+    <script>
+        function showAlert(){
+            alert('Hello, This is alert');
+        }
+
+    </script>
+     <button onclick="showAlert()">Alert</button>
+    <br><br><hr>
+    <!-- 2) Confirm (Scenario 1)-->
+    <script>
+        function showConfirm(){
+            confirm('are your sure');          
+        }
+    </script>
+ <button onclick="showConfirm()">Confirm-1</button>
+    
+    <!-- Scenario-2  -->
+    <script>
+        function showConfirm(){
+            var a=confirm('are your sure');
+            console.log(typeof(a)); 
+            if(a==true){
+                document.write('Your are entered in true loop')
+            }
+            else{
+                document.write('Your are entered in false loop')
+            }         
+        }
+    </script>
+ <button onclick="showConfirm()">Confirm-2</button>
+    <br><br><hr>
+
+    <!-- Prompt scenario-1-->
+    <script>
+        function showPrompt(){
+            prompt('Please enter age');
+            document.write()
+        }
+    </script>
+    <button onclick="showPrompt()">Prompt-1</button>
+
+    <!-- Prompt scenario-2-->
+    <script>
+        function showPrompt(){
+          var age=prompt('Please enter age');
+          if (age>=18){
+              window.location='https://twitter.com/?lang=en';
+          }
+        else {
+            window.location='https://www.facebook.com/';
+        }
+        }
+    </script>
+    <button onclick="showPrompt()">Prompt-2</button>
+
+
+ 
+</body>
+</html>

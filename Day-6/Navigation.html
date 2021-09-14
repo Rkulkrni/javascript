@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <script>
+        function nav() {
+            window.location = ("https://www.javascript.com/");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <button onclick="nav()">Navigate</button>
+
+
+    <!-- example-2 -->
+
+    <script>
+        function test1(Age) {
+
+            if (Age >= 18) {
+                document.location = ("https://www.javascript.com/")
+            }
+            else {
+                document.location = ("https://www.google.com/")
+            }
+        }
+    </script>
+
+    <div>
+        <input type="text" name="age" id="Age" placeholder="Enter your age">
+        <button onclick="test1(Age.value)">Test1</button>
+
+    </div>
+    <br><br><br>
+
+    <!-- Example-3 --><!--As to sir-->
+
+    <script>
+        function test2(ft) {
+            
+            if  (ft>=18){
+                document.location="https://twitter.com/?lang=en"
+            }
+
+            else if (number== isNaN){
+            alert('Input a number');
+
+            else{
+                document.getElementById("ft").value;
+            }
+            if (ft<=18){
+                document.location="https://www.facebook.com/"
+            }
+            else{
+                document.getElementById("b2").value;
+            }
+        }
+    </script>
+
+    <div>
+        <input type="text" name="age" id="ft" placeholder="Enter your age"><br><br>
+        <button onclick="test2(ft.value)">Facebook</button>
+        <button onclick="test2(ft.value)">Tweeter</button>
+      
+    </div>
+
+
+</body>
+
+</html>
