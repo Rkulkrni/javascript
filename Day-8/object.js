@@ -24,3 +24,15 @@ test1.achievement = function(){
 console.log(test1);
 console.log(test1.achievement());
 
+// Create a single object, with the keyword new.
+
+var test2 = new Object();
+test2.name = 'Rohit'
+test2.Runs = 213;
+test2.Balls = 89;
+test2.Role = 'all rounder'
+console.log(test2);
+
+//JavaScript for...in Loop
+
+var test 
