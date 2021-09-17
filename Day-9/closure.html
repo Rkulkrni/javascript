@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure practice</title>
+</head>
+<body>
+       
+    
+
+<script>
+        // Closure=> 
+        // "Closure" is an inner function that has access to outer function variables -->
+        
+        function outerfun(){
+             var outer= ("This is outer statement" + "<br>");
+
+            function innerfun(){
+                var inner= ("This is inner statement" + "<br>");              
+                document.write(inner);
+                document.write(outer);//this variable taken from outer function
+            }
+            innerfun();    
+        }
+            outerfun();
+
+        //Now we will check against the definition
+
+        function outfun(){
+            var a=100;
+            document.write(a + "<br>");
+            document.write(b + "<br>");
+            function innfun(){
+                var b=200;
+            }
+            innfun();
+        }
+        outfun();
+
+
+
+
+</script>
+
+</body>
+</html>

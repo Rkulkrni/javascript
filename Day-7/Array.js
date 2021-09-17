@@ -50,7 +50,7 @@ var test6 = test1.shift('MSD'); //no impact on op first element removed
 // var test11 = test1.join();
 // console.log(test11);
 
-// 8) Concat ==> connect two string and op is new array
+// 8) Concat ==> connect two array and op is new array
 // var test12 = ['ashwin','Harbhajan'];
 // var test13 = test1.concat(test12);
 // console.log(test13);
@@ -61,7 +61,7 @@ var test6 = test1.shift('MSD'); //no impact on op first element removed
 // console.log(test14);
 
 // 10) Combination of split and reverse ==> this string convert into array, reverse order then convert into string
-// var test15 = 'Claver coder india'
+// var test15 = 'Claver coder india'   // This is imp regarding interview
 // var test16 = test15.split(' ').reverse().join(); 
 // console.log(test16);
 
@@ -70,12 +70,12 @@ var test6 = test1.shift('MSD'); //no impact on op first element removed
 // test17= test16.toString();
 // console.log(test17);
 
-// 12) Map ==> help to various operation on element
+// 12) Map ==> help to various operation on element of array
 var test17= [1,2,3,4,5,6];
 // var test18= test17.map(item=> item /2*3>5);
 // console.log(test18);
 
-// 13) Filter ==>
+// 13) Filter ==> perform the operation and return with new those satisfy the condition. 
 // var test18= test17.filter(item=> item>4);
 // console.log(test18);
 
