@@ -38,7 +38,7 @@ switch (day) {
 
 //ex-2
 
-var age =21;
+var age =31;
 
 switch (true){
     case (age >=18 && age<=30):

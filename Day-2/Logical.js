@@ -1,39 +1,69 @@
 
-// Logical operator
+// Logical operator=>
 
-// Logical and AND (&&)
+// 1)Logical and AND (&&)=>
 
-var a=22;
-var b=21;
+// [T , T => T]
+// [T , F => F]
+// [F , T => F]
+// [F , F => F]
 
-console.log(a&&b);
-
-var age=23;
+var a= 22>5;  //true
+var b= 21>8;  //true
+console.log(a&&b); //true
+//---------------------------
+var a= 22<5;  //false
+var b= 21>8;  //true
+console.log(a&&b); //false
+//---------------------------
+var a= 22>5;  //true
+var b= 21<8;  //false
+console.log(a&&b); //false
+//---------------------------
+var a= 22<5;  //false
+var b= 21<8;  //false
+console.log(a&&b); //false
+//---------------------------
+var age=20;
  if (age >= 18 && age<=22) {console.log('you are eligible')}
+ 
+ //---------------------------------------------------------------------------------------------------------------------
 
-//logical OR (||)
+// 2) logical OR (||)
+// [T , T => T]
+// [T , F => T]
+// [F , T => T]
+// [F , F => F]
 
-var a=15;
-var b=10;
+var a=15<25; //true
+var b=10<28;  //true
+console.log (a||b)  //True
+//--------------------------
+var a=15<25; //true
+var b=10<8;  //false
+console.log (a||b)  //True
+//---------------------------
+var a=15>25; //false
+var b=10>8;  //true
+console.log (a||b)  //True
+//---------------------------
+var a=15>25; //false
+var b=10<8;  //false
+console.log (a||b)  //false
 
-console.log (a<=16||b>=8)  //True
-
-console.log (a<=14||b>=8)  //True
-
-console.log (a<=14||b>=11)  //false
-
-//Logical NOT (!)
+//---------------------------------------------------------------------------------------------------------------------
+// 3) Logical NOT (!)
+// [T => F]
+// [F => T]
 
 var x="pune";
 var y="pune";
-
 console.log (x!=y); //false
-
+//-------------------------------
 var x="pune";
 var y="mumbai";
-
 console.log (x!=y); //true
-
+//---------------------------------------------------------------------------------------------------------------------
 
 
 

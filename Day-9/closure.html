@@ -16,11 +16,12 @@
         
         function outerfun(){
              var outer= ("This is outer statement" + "<br>");
+             
 
             function innerfun(){
                 var inner= ("This is inner statement" + "<br>");              
                 document.write(inner);
-                document.write(outer);//this variable taken from outer function
+                document.write(outer);//this variable taken from outer function+
             }
             innerfun();    
         }
@@ -32,8 +33,10 @@
             var a=100;
             document.write(a + "<br>");
             document.write(b + "<br>");
+            
             function innfun(){
                 var b=200;
+                
             }
             innfun();
         }

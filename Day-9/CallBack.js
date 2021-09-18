@@ -79,8 +79,9 @@ test11(100 ,test10);
  var test2 = function demo2 () {
     console.log ("This is second message");
 }
-test1();
 test2();
+test1();
+
 
 
 // 2) Asynchronous :=>
