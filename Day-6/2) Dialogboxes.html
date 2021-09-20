@@ -7,7 +7,11 @@
     <title>DialogBoxes</title>
 </head>
 <body>
-    <!-- 1) Alert example-->
+
+<!-------------------------------------------------------------------------------------------------------------- -->
+    <!-- 1) Alert -->
+    <!-- only one option available -->
+    <!-- It is used to show warning messages -->
     <script>
         function showAlert(){
             alert('Hello, This is alert');
@@ -16,14 +20,18 @@
     </script>
      <button onclick="showAlert()">Alert</button>
     <br><br><hr>
+<!------------------------------------------------------------------------------------------------------------- -->
+    
     <!-- 2) Confirm (Scenario 1)-->
+    <!-- two options available -->
+    <!-- once you choose ok or cancel depending on business logic further action will be taken -->
     <script>
         function showConfirm(){
             confirm('are your sure');          
         }
     </script>
  <button onclick="showConfirm()">Confirm-1</button>
-    
+    <!----------------------------------------------------- -->
     <!-- Scenario-2  -->
     <script>
         function showConfirm(){
@@ -40,7 +48,10 @@
  <button onclick="showConfirm()">Confirm-2</button>
     <br><br><hr>
 
-    <!-- Prompt scenario-1-->
+<!-------------------------------------------------------------------------------------------------------------------->
+    <!--3) Prompt -->
+    <!-- take the input from user -->
+    <!-- depending on input can write business logic -->
     <script>
         function showPrompt(){
             prompt('Please enter age');
@@ -49,7 +60,7 @@
     </script>
     <button onclick="showPrompt()">Prompt-1</button>
 
-    <!-- Prompt scenario-2-->
+<!-- ---------------------scenario-2---------------------------------->
     <script>
         function showPrompt(){
           var age=prompt('Please enter age');
@@ -62,8 +73,6 @@
         }
     </script>
     <button onclick="showPrompt()">Prompt-2</button>
-
-
  
 </body>
 </html>

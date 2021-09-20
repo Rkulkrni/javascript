@@ -8,15 +8,14 @@
 </head>
 <body>
        
-    
-
 <script>
-        // Closure=> 
-        // "Closure" is an inner function that has access to outer function variables -->
-        
+
+/* Closure=> 
+        "Closure" is an inner function that has access to outer function variables */
+
+//-------------------------------------------------------------------------------------        
         function outerfun(){
              var outer= ("This is outer statement" + "<br>");
-             
 
             function innerfun(){
                 var inner= ("This is inner statement" + "<br>");              
@@ -24,10 +23,11 @@
                 document.write(outer);//this variable taken from outer function+
             }
             innerfun();    
-        }
+            }
             outerfun();
 
-        //Now we will check against the definition
+//---------------------------------------------------------------------------------
+//Now we will check against the definition.
 
         function outfun(){
             var a=100;
@@ -41,10 +41,7 @@
             innfun();
         }
         outfun();
-
-
-
-
+//--------------------------------------------------------------------------------
 </script>
 
 </body>

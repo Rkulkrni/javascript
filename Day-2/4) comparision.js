@@ -1,5 +1,5 @@
-// Following are the comparison operator in js=>
 
+// Following are the comparison operator in js=>
 // 1) Equals to => 
 
 var a=5;

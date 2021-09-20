@@ -16,19 +16,21 @@
 
 <body>
 
+    <!-- Navigation -->
+    <!-- Navigate from one page to another page -->
+    <!-- we can use business logic to navigate page -->
     <button onclick="nav()">Navigate</button>
-
-
+    <br><br><br>
     <!-- example-2 -->
 
     <script>
         function test1(Age) {
 
             if (Age >= 18) {
-                document.location = ("https://www.javascript.com/")
+                window.location = ("https://www.javascript.com/")
             }
             else {
-                document.location = ("https://www.google.com/")
+                window.location = ("https://www.google.com/")
             }
         }
     </script>
@@ -56,7 +58,7 @@
                 document.getElementById("ft").value;
             }
             if (ft<=18){
-                document.location="https://www.facebook.com/"
+                window.location="https://www.facebook.com/"
             }
             else{
                 document.getElementById("b2").value;
