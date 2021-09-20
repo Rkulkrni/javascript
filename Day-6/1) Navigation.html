@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,10 +18,11 @@
     <!-- Navigation -->
     <!-- Navigate from one page to another page -->
     <!-- we can use business logic to navigate page -->
-    <button onclick="nav()">Navigate</button>
-    <br><br><br>
-    <!-- example-2 -->
 
+    <!-- <button onclick="nav()">Navigate</button>
+    <br><br><br> -->
+<!-- --------------------------------------------------------------------------------------- -->
+    <!-- example-1-->
     <script>
         function test1(Age) {
 
@@ -33,47 +33,52 @@
                 window.location = ("https://www.google.com/")
             }
         }
-    </script>
-
+    </script> 
+    
+<!-- --------------------------------------------------------------------------------------- -->
     <div>
         <input type="text" name="age" id="Age" placeholder="Enter your age">
         <button onclick="test1(Age.value)">Test1</button>
 
-    </div>
+    </div> -->
     <br><br><br>
 
-    <!-- Example-3 --><!--As to sir-->
+<!------------------------------------------------------------------------------------------  -->
+    <!-- Example-3 -->
+    <div>
+        <input type="text" name="age" id="add" placeholder="Enter your age"><br><br>
+        <button onclick="test2(add)"> Facebook </button>
+        <button onclick="test2(add)"> Tweeter </button>          
 
     <script>
         function test2(ft) {
-            
-            if  (ft>=18){
-                document.location="https://twitter.com/?lang=en"
+            var input = document.getElementById("add");
+            var test = input.value;
+            console.log(test)
+            if (test>=18){
+                window.location="https://twitter.com/?lang=en"
             }
-
-            else if (number== isNaN){
-            alert('Input a number');
-
-            else{
-                document.getElementById("ft").value;
-            }
-            if (ft<=18){
+            else {
+                
                 window.location="https://www.facebook.com/"
             }
-            else{
-                document.getElementById("b2").value;
-            }
+            // else{
+            //     window.location="https://www.facebook.com/"
+            // }
         }
+       
+        // function test2(ft){
+        //     var input = document.getElementById("add");
+        //     var test = input.value;
+        //     console.log(test)
+        //     if (test<=18){
+        //         window.location="https://www.facebook.com/"
+        //     }
+        // }
+        
+        // // test2(test)    
     </script>
-
-    <div>
-        <input type="text" name="age" id="ft" placeholder="Enter your age"><br><br>
-        <button onclick="test2(ft.value)">Facebook</button>
-        <button onclick="test2(ft.value)">Tweeter</button>
-      
-    </div>
-
+</div>
 
 </body>
-
 </html>
