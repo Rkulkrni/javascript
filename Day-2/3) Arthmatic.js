@@ -1,8 +1,8 @@
 //JS comment => gives hint or more info to developer.
 
-// There are following Arthmatic operations:
+// There are following Arithmetic operations:
 
-// 1) Additon
+// 1) Addition
 
 var a = 10;
 var b = 23;
@@ -12,7 +12,7 @@ console.log  (c);
 console.log (a+b);
 
 //---------------------------------------------------------------------------------------------------------------------
-// 2) Substration
+// 2) Subtraction
 
 var x=568;
 var y=235;
@@ -40,7 +40,7 @@ var b=3;
 console.log (a%b)
 
 //---------------------------------------------------------------------------------------------------------------------
-// 6) Variable post increment
+// 6) post increment
 
 var a=8;
 var b=3;
@@ -53,7 +53,7 @@ a--;           //it means a=a-1
 console.log (a+b);  
 
 //---------------------------------------------------------------------------------------------------------------------
-// 7) Variable pre increment
+// 7)  pre increment
 var a=7;
 var b=5;
 ++a;

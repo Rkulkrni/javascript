@@ -1,10 +1,7 @@
 
 //FUNCTIONS=>
-
+// function allow us to define block of code, naming it and execute as many time as we req.
 //-------------------------------------------------------------------------------------------------------------
-/* Block of code to execute some operation
-   reusable code can add at any point
-   allow program to divide into small fragment*/
 
 // There are two types:=>
 

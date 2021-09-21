@@ -1,5 +1,6 @@
 
-// For loop :=>
+/* For loop :=>
+Use for loop to execute code repeatedly*/
 
 //initialization + condition + increment
 
@@ -14,6 +15,7 @@ function demo(){
     }
 }
 demo();
+
 //------------------------------------------------
 function demo1(){
     var test2;

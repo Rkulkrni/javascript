@@ -8,9 +8,9 @@ var b=5;
 var c= a<b;
 console.log(c);
 
-//-------------------------------------
-//following are the methods in boolean:
-//-------------------------------------
+/*-------------------------------------
+  following are the methods in boolean:
+---------------------------------------*/
 // 1) typeOf => This will show which type of data type.
 console.log(typeof(c));
 

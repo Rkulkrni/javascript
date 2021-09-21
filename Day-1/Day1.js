@@ -1,8 +1,8 @@
-// what is js =>
+/* what is js =>
 
-//It is client side scripting language which is mainly deal with events from user as well as graphical interface.
-//It is an open source language
-/*
+It is client side scripting language which is mainly deal with events from user as well as graphical interface.
+It is an open source language
+
 Feature:->
 1) lightweight
 2) used in cross-platform
@@ -14,6 +14,7 @@ limitation:->
 1) less secure
 2) can not read or write files
 3) can't perform multi threading
+
 ----------------------------------------------------------------------------------------------------------------
 Static web application:->
 = It is deal with client side languages like html,js,css

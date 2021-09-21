@@ -1,7 +1,8 @@
 // Storage type
 //---------------------------------------------------------------------------------------------------------------------
 // 1) Local storage
-//The data does not expire. It remains after the browser restart.
+//The data does not expire. 
+//It remains after the browser restart.
 localStorage.setItem('name','Rahul');
 
 document.write(localStorage.getItem('name'));

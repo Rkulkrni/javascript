@@ -1,9 +1,12 @@
-// String=>
 
+// String=>
+// --------------------------------------------------------------------------------------------------------------------
 var test1="India is my country"
 console.log(test1);
 
-// --------------------------------------------------------------------------------------------------------------------
+/*-------------------------------------
+  following are the methods in string:
+---------------------------------------*/
 //1) typeof
 console.log(typeof(test1));
 
@@ -53,6 +56,9 @@ console.log(test4);
 // start counting from 0
 // search value not found then return -1
 var test5=test1.indexOf('India');
+console.log(test5);
+//---------------------------------------
+var test5=test1.indexOf('my',3);
 console.log(test5);
 //---------------------------------------
 var test5=test1.indexOf('my');

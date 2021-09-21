@@ -14,9 +14,7 @@ function demo() {
 function demo2(callback) {  //defined callback parameter
     callback();              //callback calls here
 }
-demo2(demo); //now execution will start from demo2 and demo2 has one parameter i.e call back
-// callback asked for the argument in this case "demo" is played role of argument and that function will run op. it called as callback fun.
-
+demo2(demo); 
 //-------------------------------------------------
 //example => 2
 
@@ -78,8 +76,8 @@ var test1 = function demo1() {
 var test2 = function demo2() {
     console.log("This is second message");
 }
-test2();
 test1();
+test2();
 
 //----------------------------------------------------------------------------------------------------------------------
 // 2) Asynchronous :=>

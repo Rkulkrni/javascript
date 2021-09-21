@@ -6,9 +6,10 @@
 // 1) singal line comment
 
 // above one is single line comment
+//---------------------------------------
 
-/* 2) multi-line line comment */
+/* 2) multi-line line comment 
 
-/*console.log('Single Line comment');
+console.log('Single Line comment');*/
 
 

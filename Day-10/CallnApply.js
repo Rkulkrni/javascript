@@ -42,6 +42,5 @@ var getHobbies = function(){
 }
 getHobbies('swimming', 'watching movies');
 
-getHobbies.call(stud, 'swimming', 'watching movies');
 getHobbies.apply(stud, ['swimming', 'watching movies']); 
         

@@ -1,10 +1,12 @@
-//switch case:=> It is used for decision making purpose
+/*switch case:=> 
 
+switch is a conditional statement like if statement. 
+Switch is useful when want to execute one of the multiple code blocks based */
 var day=3;
 switch (day) {
     case 0:
     console.log("today is sunday")
-    break; // This statement is optional but it used to break execution once condition fulfilled
+    break; 
 
     case 1:
     console.log("today is monday")
